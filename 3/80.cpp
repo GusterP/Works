@@ -2,7 +2,7 @@
 #include <cmath>
 int main()
 {
-	int a,b,c,d,e,f,g,h,i,j;
+	int a,b,c,d,e,f,g;
 	std::cout<<"Введите четырехначное число: ";
 	std::cin>>a;
 	std::cout<<"Введите пятизначное число: ";
