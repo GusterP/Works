@@ -1,0 +1,22 @@
+// 4.12
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+	float a,b;
+	cout<<"Введите радиус круга: ";
+	cin>>a;
+	cout<<"Введите сторону квадрата: ";
+	cin>>b;
+	a = a*a*3.14;
+	b = b*b;
+	if (a>b)
+	{
+		cout<<"у круга площадь больше";
+	}
+	else
+	{
+		cout<<"у квадрата площадь больше";
+	}
+}
