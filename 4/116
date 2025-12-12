@@ -11,7 +11,7 @@ int main()
 	cin>>b;
 	a = a*a*3.14;
 	b = b*b;
-	if (a>b)
+	if (a>b
 	{
 		cout<<"у круга площадь больше";
 	}
