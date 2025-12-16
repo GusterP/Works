@@ -8,7 +8,7 @@ int main()
 	cin>>a;
 	cout<<"Введите площадь квадрата: ";
 	cin>>b;
-	if (b-a>=0)
+	if (b>=M_PI/4*a)
 	{
 		cout<<"a) Да";
 	}
@@ -16,7 +16,7 @@ int main()
 	{
 		cout<<"a) Нет";
 	}
-	if (a-b>=0)
+	if (a>=M_PI/2*b)
 	{
 		cout<<"\nb) Да";
 	}
